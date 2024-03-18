@@ -8,7 +8,8 @@ import Button from "@material-ui/core/Button";
 import {Link} from "react-router-dom";
 
 function BottomNavigationMobile() {
-    const [menuItems, setMenuItem] = useState([
+    eslint-disable
+    const [menuItems] = useState([
         {
             id: 0,
             icon: <HomeOutlinedIcon/>,
